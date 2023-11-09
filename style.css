@@ -1,0 +1,69 @@
+body {
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  margin: 0;
+}
+
+h3 {
+  color: #d2e3c8;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+h2 {
+  color: #86a789;
+  margin-top: 40px;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+  color: black;
+}
+.hello {
+  color: #ebf3e8;
+}
+
+.header {
+  display: block;
+  background-color: #86a789;
+  margin-top: 0;
+}
+
+.about {
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.skillsection {
+  margin-bottom: 100px;
+}
+
+.middle-seciton {
+  display: block;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  text-align: left;
+  margin-top: 25px;
+  justify-items: center;
+}
+
+.skillshot {
+  height: 15rem;
+  border-radius: 100px;
+  margin: 25px 25px;
+}
+.bio {
+  width: 300px;
+}
